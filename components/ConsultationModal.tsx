@@ -65,9 +65,17 @@ const ConsultationModal = ({ isOpen, onClose, productName }: ConsultationModalPr
               className="mt-1"
             />
           </div>
-          <div className="flex gap-2 pt-4">
+          <div className="flex flex-col sm:flex-row gap-2 pt-4">
             <Button type="submit" className="flex-1 bg-blue-500 hover:bg-blue-600">
               {t('consultationForm.submit')}
+            </Button>
+            <Button
+              asChild
+              className="flex-1 bg-green-500 hover:bg-green-600 text-white"
+            >
+              <a href="https://zalo.me/0912345678" target="_blank" rel="noopener noreferrer">
+                {t('consultationForm.chatZalo')}
+              </a>
             </Button>
             <Button type="button" variant="outline" onClick={onClose} className="flex-1">
               {t('consultationForm.cancel')}

@@ -35,7 +35,8 @@ const resources = {
         name: "Họ và tên",
         phone: "Số điện thoại",
         submit: "Gửi yêu cầu",
-        cancel: "Hủy"
+        cancel: "Hủy",
+        chatZalo: "Chat qua Zalo"
       },
       language: {
         vietnamese: "Tiếng Việt",
@@ -75,7 +76,8 @@ const resources = {
         name: "Full Name",
         phone: "Phone Number",
         submit: "Submit Request",
-        cancel: "Cancel"
+        cancel: "Cancel",
+        chatZalo: "Chat on Zalo"
       },
       language: {
         vietnamese: "Tiếng Việt",

@@ -7,6 +7,7 @@ import { Toaster } from "../components/ui/toaster";
 import { Toaster as Sonner } from "../components/ui/sonner";
 import { TooltipProvider } from "../components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ZaloChatButton from "../components/ZaloChatButton";
 
 function MyApp({ Component, pageProps }: AppProps) {
   // Ensure QueryClient is not recreated on every render
@@ -20,6 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Toaster />
         <Sonner />
         <Component {...pageProps} />
+        <ZaloChatButton />
       </TooltipProvider>
     </QueryClientProvider>
   );
