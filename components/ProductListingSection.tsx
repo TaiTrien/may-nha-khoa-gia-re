@@ -68,6 +68,14 @@ const ProductListingSection = () => {
             </Card>
           ))}
         </div>
+        <div className="mt-8 flex justify-center">
+          <Button
+            onClick={() => router.push('/products')}
+            className="bg-blue-500 hover:bg-blue-600 text-white"
+          >
+            {t('products.viewAll')}
+          </Button>
+        </div>
       </div>
 
       <ConsultationModal

@@ -28,7 +28,8 @@ const resources = {
       products: {
         title: "Sản phẩm nổi bật",
         condition: "Tình trạng",
-        requestConsultation: "Yêu cầu tư vấn"
+        requestConsultation: "Yêu cầu tư vấn",
+        viewAll: "Xem tất cả sản phẩm"
       },
       consultationForm: {
         title: "Yêu cầu tư vấn",
@@ -69,7 +70,8 @@ const resources = {
       products: {
         title: "Featured Products",
         condition: "Condition",
-        requestConsultation: "Request Consultation"
+        requestConsultation: "Request Consultation",
+        viewAll: "View All Products"
       },
       consultationForm: {
         title: "Request Consultation",
