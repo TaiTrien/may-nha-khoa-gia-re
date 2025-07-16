@@ -33,9 +33,9 @@ const ProductPage = () => {
   );
 
   return (
-    <div className="min-h-screen">
+    <>
       <Header />
-      <main className="pt-20 px-4 container mx-auto max-w-7xl">
+      <main className="min-h-screen pt-20 pb-32 px-4 container mx-auto max-w-7xl">
         <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">
           {t("products.title")}
         </h1>
@@ -110,7 +110,7 @@ const ProductPage = () => {
         onClose={() => setIsModalOpen(false)}
         productName={selectedProduct?.name}
       />
-    </div>
+    </>
   );
 };
 

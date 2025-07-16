@@ -20,9 +20,9 @@ const ProductDetailPage = () => {
   }
 
   return (
-    <div className="min-h-screen">
+    <>
       <Header />
-      <main className="pt-20 container mx-auto px-4">
+      <main className="min-h-screen pt-20 pb-32 container mx-auto px-4">
         <div className="max-w-3xl mx-auto bg-white rounded shadow">
           <div className="aspect-video">
             <img src={product.image} alt={product.name} className="w-full h-full object-cover" />
@@ -49,7 +49,7 @@ const ProductDetailPage = () => {
         onClose={() => setIsModalOpen(false)}
         productName={product.name}
       />
-    </div>
+    </>
   );
 };
 
