@@ -35,7 +35,7 @@ const ProductPage = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-20 pb-32 px-4 container mx-auto max-w-7xl">
+      <main className="min-h-screen pt-20 pb-12 px-4 container mx-auto max-w-7xl">
         <h1 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">
           {t("products.title")}
         </h1>
