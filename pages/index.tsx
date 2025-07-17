@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <>
       <Header />
-      <main className="min-h-screen pt-16 pb-32">
+      <main className="min-h-screen pt-16 pb-12">
         <HeroSection />
         <WhyChooseUsSection />
         <ProductListingSection />
