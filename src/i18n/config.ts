@@ -31,6 +31,9 @@ const resources = {
         requestConsultation: "Yêu cầu tư vấn",
         viewAll: "Xem tất cả sản phẩm"
       },
+      testimonials: {
+        title: "Khách hàng nói gì?"
+      },
       consultationForm: {
         title: "Yêu cầu tư vấn",
         name: "Họ và tên",
@@ -72,6 +75,9 @@ const resources = {
         condition: "Condition",
         requestConsultation: "Request Consultation",
         viewAll: "View All Products"
+      },
+      testimonials: {
+        title: "Client Testimonials"
       },
       consultationForm: {
         title: "Request Consultation",
