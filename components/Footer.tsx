@@ -4,7 +4,7 @@ import { footerData } from "../lib/footer";
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-6 px-4">
-      <div className="container mx-auto max-w-6xl grid sm:grid-cols-4 gap-8">
+      <div className="container mx-auto max-w-6xl grid sm:grid-cols-5 gap-8">
         <div className="sm:col-span-2 text-center sm:text-left">
           <h3 className="text-2xl font-bold mb-4">DentalEquip</h3>
           <p className="text-gray-400 mb-4">
